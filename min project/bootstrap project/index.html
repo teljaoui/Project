@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            padding-inline:20px;
+        }
+        .a{
+            width: 200px;
+            height: 100px;
+            padding: 0px;
+            
+        }
+        .b{
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            margin-left: 80%;
+            top: 60px;
+        }
+        nav {
+            text-decoration: none;
+            display: flex;
+            justify-content: space-around;
+            background: black;
+            top: 10px;
+            height: 40px;
+            padding-top: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+        }
+        a:hover{
+            color: red;
+        }
+        nav >div{
+            color: white;
+
+        } 
+        section{
+            padding-top: 10px;
+            position: absolute;
+        }
+        .content{
+            position: absolute;
+            font-size: 2rem;
+            width: 700px;
+        }
+        aside{
+            position: absolute;
+            padding-left: 900px;
+        }
+        aside h1{
+            font-size: 40px;
+            padding-top: 20px;
+        }
+        aside h1:hover{
+            border: 1px solid;
+            border-radius: 10px;
+            background: blue;
+        }
+        aside ul{
+            background: grey;
+            padding: 40px;
+            font-size: 25px;
+            width: 460px;
+        }
+        .img{
+            position:absolute;
+            top: 800px;
+            
+            
+        }
+        .img1{
+            width: 400px;
+            position: absolute;
+
+        }
+        .img2{
+            width: 400px;
+            position: absolute;
+            padding-left: 500px;
+
+        }
+        .img3{
+            width: 400px;
+            position:absolute;
+            padding-left: 1000px;
+        }
+        .fin{
+            text-decoration: none;
+            position: absolute;
+            display: flex;
+            justify-content: space-around;
+            background: grey;
+            top: 1200px;
+            height: 50px;
+            width: 1480px;
+            margin-bottom:  100px;
+            padding-top: 10px;
+        }
+        header img:hover{
+            cursor: pointer;
+        }
+        aside ul li:hover{
+            color: red;
+            cursor: pointer;
+        }
+        .hr{
+            position: relative;
+            top: 650px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="a" src="2.jpeg" alt="">
+        <img class="b" src="3.png" alt="">
+    </header>
+    <nav>
+        <div><a href="#">item 1</a></div>
+        <div><a href="#">item 2</a></div>
+        <div><a href="#">item 3</a></div>
+        <div><a href="#">item 4</a></div>
+        <div><a href="#">item 5</a></div>
+        <div><a href="#">item 6</a></div>
+    </nav>
+    <section>
+        <img src="1.jpg" height="200px" width="800px" alt="">
+        <div class="content">
+            <h1>This is a title</h1>
+            <p style="font-size: 1rem;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sit blanditiis reiciendis eveniet, commodi error sunt accusantium facere maiores nulla ut culpa corporis atque harum accusamus autem vitae! Animi, perspiciatis.</p>
+            <p style="font-size: 1rem;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sit blanditiis reiciendis eveniet, commodi error sunt accusantium facere maiores nulla ut culpa corporis atque harum accusamus autem vitae! Animi, perspiciatis.</p>
+            <p style="font-size: 1rem;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum sit blanditiis reiciendis eveniet, commodi error sunt accusantium facere maiores nulla ut culpa corporis atque harum accusamus autem vitae! Animi, perspiciatis.</p>
+            <br>
+           
+        </div>
+    </section>
+    <aside>
+        <h1>Hot items</h1>
+        <ul>
+            <li>Lorem ipsum dolor</li>
+            <li>Lorem ipsum dolor</li>
+            <li>Lorem ipsum dolor</li>
+        </ul>
+        <h1>New items</h1>
+        <ul>
+            <li>Lorem ipsum dolor sit</li>
+            <li>Lorem ipsum dolor sit</li>
+            <li>Lorem ipsum dolor sit</li>
+            <li>Lorem ipsum dolor sit</li>
+        </ul>
+    </aside>
+    <div class="hr">
+    
+        <hr>
+    </div>
+    <div class="img">
+        <h1>In the spotlight</h1>
+        <div class="img1">
+            <img src="1.jpg" width="400px" height="140px" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, nisi, dignissimos incidunt esse optio perferendis debitis explicabo rem et aspernatur, error amet excepturi praesentium doloribus laboriosam! Quia accusamus odio provident!</p>
+        </div>
+        <div class="img2">
+            <img src="1.jpg" width="400px" height="140px" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora dignissimos commodi doloremque numquam cupiditate dicta. Atque aspernatur ex, quae eius adipisci fuga, quisquam reiciendis provident nulla aperiam recusandae quod facere!</p>
+        </div>
+        <div class="img3">
+            <img src="1.jpg" width="400px" height="140px" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod reprehenderit saepe error ea rem itaque sapiente, repellat, qui vel perspiciatis distinctio! Commodi ipsam deserunt, pariatur molestiae vero placeat veniam distinctio?</p>
+        </div>
+    </div>    
+    <div class="fin">
+        <div><a href="#">item 1</a></div>
+        <div><a href="#">item 2</a></div>
+        <div><a href="#">item 3</a></div>
+        <div><a href="#">item 4</a></div>
+        <div><a href="#">item 5</a></div>
+        <div><a href="#">item 6</a></div>
+    </div>
+
+</body>
+</html>

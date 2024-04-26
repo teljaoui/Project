@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card mt-5">
+        <div class="card-header">La plus belle ville</div>
+        <div class="card-body">
+        <form method="post" action="/action_page.php">
+    </div>
+    <div>
+        <label class="form-label" for="nom">Nom et prenom  :</label>
+        <input class="form-control" type="text" id="textNP">
+    </div>
+    <div><label class="form-label" for="email">Email</label>
+        <input class="form-control" type="email" id="email"></div>
+        
+    <div class="mb-3">
+        <label class="form-label" for="pwd">Mot de passe</label>
+        <input class="form-control" type="password" id="passew">
+    </div>
+    <div><label class="form-label" for="ville">VillE</label><select class="form-select"  id="ville">
+        <option>Temara</option>
+        <option>Rabat</option>
+        <option>casa</option>
+        <option>sale</option>
+    </select>
+
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Vote</label>
+        <input class="from-control" type="range" name="vote" min="0" max="100" value="20">
+
+    </div>
+    <div class="mb-3">
+        <input  class="form-check-input" type="checkbox" id="checken" checked>
+        <label class="form-check-label">Enregistrer</label>
+
+
+    </div>
+    <div class="row">
+        <div class="col offset-4">
+            <button class="col-3 btn-outline-primary" type="reset">Annuler</button>
+            <button class="col-3 btn btn-primary" type="reset">Soumettre</button>
+
+        </div>
+    </div>
+    
+    </form>
+</div>
+<div class="card-footer">Massira 1</div>
+</div>
+
+    
+</body>
+</html>

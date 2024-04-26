@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <button class="btn">submit</button>
+        <script>
+            var btn = document.querySelector('.btn');
+            var position ; 
+            btn.addEventListener('mouseover', function(){
+                position ? (position = 0) : (position = 150);
+                btn.style.transform = `translate(${position}px,0px)`;
+                btn.style.transition = 'all 0.3s ease';
+            })
+        </script>
+    </div>
+</body>
+</html>

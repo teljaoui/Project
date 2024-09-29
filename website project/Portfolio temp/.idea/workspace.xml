@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0c53960-64b4-4396-9932-56405eff1fb5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../portfolio template/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio template/images/about.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio template/images/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio template/images/portfolio1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio template/images/portfolio2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio template/images/portfolio3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio template/images/portfolio4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio template/images/portfolio5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio template/images/portfolio6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio template/images/testimonial1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio template/images/testimonial2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio template/images/testimonial3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio template/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio template/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/bac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/bac1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/bac2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/bac2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/bac3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/bac4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/bag.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/bag1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/lap1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/lap10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/lap11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/lap12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/lap2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/lap3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/lap4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/lap5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/lap6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/lap7.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/lap8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/image/lap9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/style.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2h4allClOdDFsGRs1BHSj2LnVnZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0c53960-64b4-4396-9932-56405eff1fb5" name="Changes" comment="" />
+      <created>1716855960661</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716855960661</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

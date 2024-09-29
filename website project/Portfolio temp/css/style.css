@@ -89,24 +89,24 @@ img{
 
 .btn{
     display: inline-block;
-    background: var(--color-white);
-    color: var(--color-black);
+    background: white;
+    color: black;
     padding: 1rem 2rem;
     border: 1px solid transparent;
     font-weight: 500;
-    transition: var(--transition);
+    transition: all 400ms easevar(--transition);
     cursor: pointer;
 }
 
 .btn:hover{
     background: transparent;
-    color: var(--color-white);
-    border-color: var(--color-white);
+    color: white;
+    border-color: white;
 }
 
 .btn-primary{
     background: var(--color-danger);
-    color: var(--color-white);
+    color: white;
 }
 
 
@@ -123,7 +123,7 @@ nav{
 
 /* Change navbar styles on scroll using javascript */
 .window-scroll{
-    background: var(--color-primary);
+    background: #6c63ff;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
 }
 
@@ -146,11 +146,11 @@ nav button{
 
 .nav_menu a{
     font-size: 0.9rem;
-    transition: var(--transition);
+    transition: all 400ms ease;
 }
 
 .nav_menu a:hover{
-    color: var(--color-bg2);
+    color: #424890;
 }
 
 /* ======================== Navbar ================================ */
